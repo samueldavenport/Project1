@@ -4,13 +4,10 @@ sheet is referenced by LINK in Ralph.html*/
 
 
 
-/* Layout
+/* Body
 ======================= */
 
-
-body {
-  padding-top:70px
-}
+body
 
 .all{
   background: #000000;
@@ -34,6 +31,18 @@ body {
   padding-left:20px;
   padding-right:20px;
 }
+
+.container3 {
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #000000;
+  color:#fff;
+  padding-bottom: 70px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
 
 /* jumbotron
 ======================= */
