@@ -1,0 +1,60 @@
+/* * This is the CSS style sheet, which contains
+all the rules for our first webpage. The CSS style
+sheet is referenced by LINK in Ralph.html*/
+
+
+
+/* Layout
+======================= */
+
+
+body {
+  padding-top:70px
+}
+
+.all{
+  background: #000000;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+.container2 {
+  max-width: 1000px;
+  background: #000000;
+  color:#fff;
+  padding-bottom: 70px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+/* jumbotron
+======================= */
+
+.jumbotron {
+  text-align: center;
+}
+
+
+/* Classes are declared in the html using
+class="classname" and then styled in CSS using
+<selector>.<class>, so like: classname p{}
+DO NOT NEED SELECTORS TO DECLARE CLASSES
+Both id's and classes can be targeted by
+CSS rules (classes with a . and id's with
+a # symbol).
+The important difference is that id's are
+unique, while classes are not unique.
+*/
+
+/* Div can wrap attributes like classes inside
+its tags.
+Use Divs to separate "groups" of paragraphs of
+text, or Span to make inline changes*/

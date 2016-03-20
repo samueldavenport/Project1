@@ -1,20 +1,99 @@
 <!DOCTYPE html>
 <html>
+<!Header information including CSS links>
   <head>
-    <title></title>
+    <title>Sam's Sample Page</title>
+    <link href="bootstrap/CSS/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/CSS/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
   </head>
   <body>
-      <h1></h1>
+<div class="all">
+<!Navbar information>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
 
-      <p></p>
-      <p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand text-muted"  href="mailto:esosland@gmail.com">Soslandia</a>
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+            <li><a href="#">Four</a></li>
+          </ul>
+
+      </div>
+    </div>
+  </div>
+
+<!First image (responsive) and outside container>
+  <div class="container2">
+  <div class="center-block"><img src="IMG/mountains.jpeg" alt="Road in mountains." class="img-responsive"></span>
+  </div>
+  </div>
+
+<!Back in container with Jumbotron and button info (padding)>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Headline here!</h1>
+      <p class="lead">Subhead goes here. Amaze your friends with the slicing and the dicing and all manner of neato type things! </p>
+      <p class="btn-group">
+        <a class="btn btn-success .btn-small" href="#">Link One</a>
+        <a class="btn btn-warning .btn-small" href ="#">Link numero dos</a>
       </p>
+    </div>
+  </div>
+
+
+  <div class=container>
+    <div class=container2>
+<!Row and 2 equal columns>
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+      </div>
+      <div class="col-sm-6">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+      </div>
+    </div>
+
+<!Row and two columns, one offset>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Professional philosophy.</h3>
+        <p>Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+      </div>
+      <div class="col-sm-4 col-sm-offset-2">
+        <h3> About the author. </h3>
+        <p>Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. </p>
+      </div>
+    </div>
+  </div>
+<!Second image (responsive), inside container>
+    <div>
+      <img src="IMG/Tilikum.jpg" alt="Tilikum crossing." class="img-responsive"/>
+        <h1>Something about this bridge!</h1>
+    </div>
+
+    <hr>
+<!Copyright notice>
+    <div>
+        <p>&copy; 2016 - By Soslandia, LLC.</p>
+    </div>
+  </div>
+  </div>
+</div>
+<!JS scripts>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   </body>
   </html>
-  
